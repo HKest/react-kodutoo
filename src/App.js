@@ -4,22 +4,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>Hallo world</p>
-        <h1>Pealkiri 1</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button className='nupp'>Nupp</button>
+
+    <p className='sinine-tekst'>Tee sinine tekst, millele hiirega peale minnes muuda selle teksti suurus suuremaks </p>
+    <p className='roheline-tekst'>Tee roheline tekst</p>
+    <img src='https://cdn.cloudflare.steamstatic.com/steam/apps/1060870/header.jpg?t=1615951640' className='pilt' alt='Hallo World'/>
     </div>
   );
 }
