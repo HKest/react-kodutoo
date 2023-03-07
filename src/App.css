@@ -1,51 +1,65 @@
+body { background-color: rgb(188, 188, 181) }
+
+
 .App {
-  text-align: center;
-}
+   text-align: center;
+  }
+  
+  .nupp {
+   background-color: rgb(99, 231, 99);
+   color: rgb(112, 111, 111);
+  }
+  
+  .nupp:hover {
 
-.nupp {
-  background-color: rgb(99, 231, 99);
-  color: rgb(112, 111, 111);
-}
-
-.nupp:hover {
-
-  height: 100px
-
-}
-
-.nupp:active {
-
-  cursor: grab
-}
-
-.sinine-tekst {
-
+  height: 100px;
+  
+  }
+  
+  .nupp:active {
+  
+   cursor: grab;
+  }
+  
+  .sinine-tekst {
+  
   color: blue;
   font-style: italic;
-}
+  }
 
-.sinine-tekst:hover {
+    .sinine-tekst:hover {
+    
+     font-size: 24px
+    }
+    
+    /* Oli erinevaid võimalusi, leidsin, et -webkit oli lihtsam aga äkki oli vaja border käsku kasutada */
+    .roheline-tekst {
+     
+     color: green;
+     font-size: 44px;
+     font-weight: bold;
+     -webkit-text-fill-color: green;
+     -webkit-text-stroke-color: red;
+     -webkit-text-stroke-width: 1.00px;
+    }
+    .roheline-tekst:hover {
+      
+    -webkit-text-fill-color: green;
+    -webkit-text-stroke-color: brown;
+    -webkit-text-stroke-width: 2.00px;
+     
+    
+    }
+    
+    .pilt {
+    
+    width: 500px;
+    height: 250px;
+    float: right;
+    }
 
-  font-size: 24px
-}
+    .pilt:hover {
 
-.roheline-tekst {
-  
-  color: green;
-  font-size: 33px;
-  font-weight: bold;
-  -webkit-text-stroke-color: red;
-  -webkit-text-stroke-width: 1px;
-}
-.roheline-tekst:hover {
-  -webkit-text-stroke-color: brown;
-  -webkit-text-stroke-width: 1px;
-
-}
-
-.pilt {
-
-  width: 500px;
-  height: 250px;
-
-}
+      border-radius: 25%;
+      opacity: 0.3;
+    }
